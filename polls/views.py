@@ -3,3 +3,6 @@ from django.shortcuts import render
 
 def index(request):
     return HttpResponse("Hello, world. You're at the pools index.")
+
+def whatever(request):
+    return HttpResponse("Home")
